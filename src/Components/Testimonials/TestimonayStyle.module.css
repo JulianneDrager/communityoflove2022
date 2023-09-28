@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.rowStyle {
+    background-size: cover;
+    background-position: center left 1px;
+    background-color: #091a37;
+    display: flex;
+    flex-direction: column;
+    padding: 0 .5rem;
+    margin: -5rem .4rem 0 .4rem;
+    position: relative;
+    z-index: 1;
+}
+
+.h1Title {
+    font-family: "EB Garamond";
+    text-align: center;
+    color: #a98519;
+    background-color: transparent;
+    font-size: 2.5rem;
+    line-height: 1.9rem;
+    padding: 1.2rem;
+    margin-top: 1.5rem;
+    text-shadow: 0px 0px 2px #00000030;
+}
+
+.pStyle{
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+
+.quoteStyle {
+    width: 30px;
+    margin-left: 2.3rem;
+}
+
+
+@media screen and (min-width:768px) {
+
+.dividerDisplay{
+    display: none;
+}
+
+.rowStyle{
+    margin: -4rem -0.11rem 0 -0.11rem;
+}
+
+}
