@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.h1Style {
+  font-family: "Eb Garamond";
+  font-size: 2.4rem;
+  color: #1b4da2;
+  line-height: 2rem;
+  text-align: center;
+  padding: 2rem 0 0 0;
+}
+
+.pStyle,
+.h5Style {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-family: "Didact Gothic";
+}
+
+.h5Style {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.comingSoonText {
+  font-size: 1rem;
+  font-family: "Didact Gothic";
+  margin: 1rem 0 -2.2rem 0;
+}
+
+.rowWrapper {
+  padding: 0 .5rem 1rem .5rem;
+  background: url("../../images/mobile-coming-soon/mobile-c-s-background.jpg") no-repeat center -5rem;
+  background-size: cover;
+  border-top: 10px solid #5fad3e;
+  margin: 0 .5rem;
+}
+
+.colStyle,
+.petColStyle,
+.colTitleStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffffe5;
+  margin: 0;
+  padding: .5rem;
+}
+
+.colTitleStyle {
+  margin: 1rem .75rem 0 .75rem;
+  padding: 0;
+}
+
+.EmpIconStyle,
+.EmprIconStyle,
+.PetIconStyle {
+  width: 70px;
+  height: auto;
+}
+
+@media screen and (min-width:414px) {
+
+  .colStyle,
+  .petColStyle {
+    padding: .5rem 2rem;
+  }
+
+  .EmpIconStyle,
+  .EmprIconStyle,
+  .PetIconStyle {
+    width: 100px;
+    height: auto;
+  }
+
+}
+
+@media screen and (min-width:768px) {
+  .comingSoonText {
+    font-size: 2rem;
+    font-family: "Eb Garamond";
+    color: #1b4da2;
+  }
+
+  .cardWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rowWrapper {
+    padding: 0;
+    background: url("../../images/desktop-coming-soon/desktop-c-s-background.jpg") no-repeat center -5rem;
+    background-size: cover;
+    margin: 1.5rem 0 0 0;
+  }
+
+  .divWrapper {
+    display: flex;
+    padding-bottom: 8rem;
+    height: 375px;
+  }
+
+  .cardWrapper {
+    margin-top: 7.5rem;
+  }
+
+  .colStyle {
+    margin: 1rem 1rem 0 0;
+    width: 208px;
+  }
+
+  .colTitleStyle {
+    background-color: transparent;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .colStyle {
+    width: 31.3%;
+  }
+}
