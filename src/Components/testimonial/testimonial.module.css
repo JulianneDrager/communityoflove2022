@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.testimonialheader{
+    background-color: #BD742C;
+    height: 30vh;  
+}
+.headContainer{
+    text-align: center;
+    padding: 1.4em .5em;
+}
+.pStyle{
+    text-align: center;
+}
+
+.mainConStyle{
+    width: 100%;
+    background-image: url(../../assets/mobile-testimony-background.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2em 0;
+    color: #273D65;
+}
+
+.secondaryMainContainer{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.headContainerh1{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+.pStyle{
+    font-size: 1.3rem;
+    text-align: justify;
+    padding: 1em 0;
+}
+
+.cardsConStyle{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+@media(min-width:640px){
+    .cardsConStyle{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .mainConStyle{
+        background-image: url(../../assets/desktop-testimony-background-optimized.jpg);
+    }
+    .secondaryMainContainer{
+        width: 75%;
+    }
+
+    .testimonialheader{
+       height: 55vh;
+        
+    }
+    .pStyle{
+        text-align: center;
+    }
+    
+}
