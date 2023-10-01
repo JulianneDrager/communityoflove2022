@@ -12,7 +12,7 @@ const Testimonial = () => {
   const cardsConStyle = testimonialStyle.cardsConStyle;
   const testimonialheader = testimonialStyle.testimonialheader;
   const secondaryMainContainer = testimonialStyle.secondaryMainContainer;
-
+  const readMoreBtn = testimonialStyle.readMoreBtn
   // State to keep track of the start index for slicing the array
   const [startIndex, setStartIndex] = useState(0);
 
@@ -43,7 +43,7 @@ const Testimonial = () => {
         </div>
         {/* Render "Read More" button if there are more testimonies to display */}
         {startIndex + 3 < dataDummy.length && (
-          <button onClick={handleReadMore}>Read More</button>
+          <button onClick={handleReadMore} className={readMoreBtn}>Read More</button>
         )}
       </div>
     </div>
