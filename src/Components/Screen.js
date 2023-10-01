@@ -10,6 +10,7 @@ import ComingSoon from "./ComingSoon/ComingSoon";
 import Testimony from "./Testimonials/Testimony";
 import Cafe from "./Cafe/Cafe";
 import Contact from "./Contact/Contact";
+import Testimonial from "./testimonial/Testimonial";
 
 
 const Screen = () => {
@@ -34,6 +35,7 @@ const Screen = () => {
             <OutreachPartOne />
             <QuickLinks />
             <Testimony />
+            <Testimonial/>
             <ComingSoon />
             <CourseSection/>
             <Cafe/>
