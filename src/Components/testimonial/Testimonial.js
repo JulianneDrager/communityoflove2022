@@ -40,11 +40,12 @@ const Testimonial = () => {
         </div>
         <div className={cardsConStyle}>
           {getNextCards()}
-        </div>
+       
         {/* Render "Read More" button if there are more testimonies to display */}
         {startIndex + 3 < dataDummy.length && (
           <button onClick={handleReadMore} className={readMoreBtn}>Read More</button>
         )}
+         </div>
       </div>
     </div>
   );
