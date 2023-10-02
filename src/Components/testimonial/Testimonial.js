@@ -12,7 +12,7 @@ const Testimonial = () => {
     const testimonialheader = testimonialStyle.testimonialheader
     const secondaryMainContainer = testimonialStyle.secondaryMainContainer
 
-    const cards = dataDummy.map(function(card){
+    const cards = dataDummy.map((card) => {
         return <  
         Card
         key={card.id}
