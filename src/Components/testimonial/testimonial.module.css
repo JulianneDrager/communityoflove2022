@@ -51,11 +51,20 @@
     gap: 2em;
 }
 
+.readMoreBtn{
+    margin: 0 auto;
+    padding:1em 2em;
+    border: none;
+    border-radius: .5rem;
+    background-color: #273D65;
+    color: #ffff;
+}
+
 @media(min-width:768px){
     .cardsConStyle{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        row-gap: 2rem;
+        
     }
 
     .mainConStyle{
