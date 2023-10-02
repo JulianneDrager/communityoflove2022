@@ -60,7 +60,7 @@
     color: #ffff;
 }
 
-@media screen and (min-width:768px){
+@media(min-width:768px){
     .cardsConStyle{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
