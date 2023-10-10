@@ -1,0 +1,35 @@
+main {
+    font-family: "Rubik";
+}
+
+.circleStyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 50%;
+
+    color: white;
+    text-align: center;
+}
+
+.bgColor {
+    background-color: #17438D;
+}
+
+
+.buttonColor {
+    background-color: #A27F14;
+}
+
+.pStyle {
+    color: white;
+}
+
+.MobileHeaderImgStyle {
+    width: 200px;
+}

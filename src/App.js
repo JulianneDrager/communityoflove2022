@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Screen from "./Components/Screen";
 // import ReadMore from "./Components/Community of Love/Testimonials/Readmore/ReadMore" 
 // import PrayerFormScreen from "./Components/Community of Love/Mission Statement/PrayerForm/PrayerFormScreen";
+import TestPage from "./Components/TestPage/TestPage";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
 
         </Routes>
       </BrowserRouter>
+      <TestPage></TestPage>
     </>
   );
 }
