@@ -1,41 +1,34 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Nav from "./ui/Nav";
-import Header from "./Header/Header";
-import About from "./About/About";
-import OutreachPartOne from "./Outreach/OutreachPartOne";
-import QuickLinks from "./QuickLinks/QuickLinks";
-import CourseSection from "./Courses/CourseSection";
-import ComingSoon from "./ComingSoon/ComingSoon";
-import Testimony from "./Testimonials/Testimony";
-import Cafe from "./Cafe/Cafe";
-import Contact from "./Contact/Contact";
-import Testimonial from "./testimonial/Testimonial";
+import NavDesktop from "./ui/NavDesktop"
+import Header from "./Community of Love/Header/Header";
+import About from "./Community of Love/About/About";
+import OutreachPartOne from "./Community of Love/Outreach/OutreachPartOne";
+import MissionStatement from "./Community of Love/Mission Statement/QuickLinks";
+import CourseSection from "./Community of Love/Courses/CourseSection";
+import ComingSoon from "./Community of Love/ComingSoon/ComingSoon";
+import Testimony from "./Community of Love/Testimonials/Testimony";
+import Cafe from "./Community of Love/Cafe/Cafe";
+import Contact from "./Community of Love/Contact/Contact";
+import useMediaQuery from "./UseMediaQuery";
 
 
 const Screen = () => {
-  // const location = useLocation();
-
-  // let showContactText;
-  // if (location.pathname === "/conference") {
-  // // if (location.pathname === "/tmp/jermainekee.com/conference") {
-  //   showContactText = true;
-  // } else {
-  //   showContactText = false;
-  // }
+const matchesLg = useMediaQuery("(min-width:765px)");
 
   return (
     <>
       <Container className="p-0">
-        <Nav />
+       { !matchesLg && <Nav />}
+       { matchesLg && <NavDesktop />}
         <Header />
         <div style={{ marginTop: "-5rem" }}>
           <About />
           <div style={{ marginTop: "-5rem" }}>
             <OutreachPartOne />
-            <QuickLinks />
+            <MissionStatement />
             <Testimony />
-            <Testimonial/>
             <ComingSoon />
             <CourseSection/>
             <Cafe/>
@@ -47,3 +40,4 @@ const Screen = () => {
   );
 };
 export default Screen;
+// test
