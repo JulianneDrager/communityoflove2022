@@ -7,13 +7,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Screen from "./Components/Screen";
 // import ReadMore from "./Components/Community of Love/Testimonials/Readmore/ReadMore" 
 // import PrayerFormScreen from "./Components/Community of Love/Mission Statement/PrayerForm/PrayerFormScreen";
-import TestPage from "./Components/TestPage/TestPage";
+import Header from "./Components/Gods Gospel Cafe/Header/Header";
 
 
 function App() {
   
   return (
-    <body style={{ backgroundColor: "#A27F14" }}>
+    <body style={{ backgroundColor: "cyan" }}>
       <BrowserRouter>
         <Routes>
           {/* <Route exact path="/tmp/communityoflove2022.com/" element={<Screen/>} />
@@ -27,7 +27,7 @@ function App() {
 
         </Routes>
       </BrowserRouter>
-      <TestPage></TestPage>
+      <Header></Header>
     </body>
   );
 }
