@@ -13,7 +13,7 @@ import TestPage from "./Components/TestPage/TestPage";
 function App() {
   
   return (
-    <>
+    <body style={{ backgroundColor: "#A27F14" }}>
       <BrowserRouter>
         <Routes>
           {/* <Route exact path="/tmp/communityoflove2022.com/" element={<Screen/>} />
@@ -28,7 +28,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <TestPage></TestPage>
-    </>
+    </body>
   );
 }
 

@@ -14,7 +14,7 @@ const TestPage = () => {
     return (
         <>
             <main>
-                <p className={pStyle}>The background color is currently controlled by "public/index.html"</p>
+                <p className={pStyle}>The background color is currently controlled by App.js</p>
                 <br></br>
                 <div className={circleStyle}>red</div>
                 <div className={`${circleStyle} ${bgColor}`}>#17438D</div>
