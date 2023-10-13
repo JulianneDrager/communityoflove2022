@@ -29,15 +29,11 @@
 
     padding-bottom: 4em;
 
-    border: red dotted 1px;
+    /* border: red dotted 1px; */
 }
 
 .logoImage {
     width: 50%;
-    /* margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 6vw;
-    margin-bottom: 6vw; */
 }
 
 .contentImage {
@@ -79,3 +75,4 @@ h2 {
     letter-spacing: 2px;
 
 }
+
