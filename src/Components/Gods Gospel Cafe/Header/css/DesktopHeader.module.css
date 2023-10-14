@@ -1,0 +1,29 @@
+.wrapper {
+    width: clamp(600px, 100%, 100%);
+    aspect-ratio: 1000 / 574;
+}
+
+.backgroundImage {
+    width: clamp(600px, 100%, 100%);
+}
+
+.contentWrapper {
+
+
+    /* test border */
+    border: red dotted 4px;
+}
+
+.logoImage {}
+
+.contentImage {
+    width: 50%;
+}
+
+h2 {}
+
+.miniWrapper {}
+
+.divider {}
+
+.button {}

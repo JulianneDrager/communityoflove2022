@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
+/* FONT FAMILIES AVAILABLE: EB Garamond, Merriweather, Montserrat, Didact Gothic, Roboto */
+
+main {
+    font-family: "EB Garamond";
+}
+
+.circleStyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 50%;
+
+    color: white;
+    text-align: center;
+}
+
+.bgColor {
+    background-color: #17438D;
+}
+
+
+.buttonColor {
+    background-color: #A27F14;
+}
+
+.pStyle {
+    color: white;
+}
+
+.MobileHeaderImgStyle {
+    width: 200px;
+}
