@@ -41,7 +41,7 @@
     margin-top: -2%;
 }
 
-h2 {
+.h2Style {
     font-weight: 400;
     font-size: 7vw;
     margin: 0;
@@ -64,7 +64,6 @@ h2 {
 
 .button {
     width: 70%;
-    height: clamp(36px, 10vw, 10vw);
 
     border-radius: 0%;
     border: none;
@@ -72,7 +71,7 @@ h2 {
     background-color: #A27F14;
 
     font-size: 4vw;
+    line-height: 8vw;
     letter-spacing: 2px;
-
 }
 

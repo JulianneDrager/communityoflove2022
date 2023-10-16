@@ -8,22 +8,42 @@
 }
 
 .contentWrapper {
-
+    padding-bottom: 4%;
 
     /* test border */
     border: red dotted 4px;
 }
 
-.logoImage {}
+/* .desktopImageWrapper {
 
-.contentImage {
-    width: 50%;
+} */
+
+.logoImage {
+    width: 20%;
+    margin-left: 2%;
+    margin-right: auto;
 }
 
-h2 {}
+.contentImage {
+    width: 45%;
+    margin-top: -6%;
+    margin-bottom: -4%;
+}
+
+.h2Style {
+    font-size: 3.6vw;
+}
 
 .miniWrapper {}
 
-.divider {}
+.divider {
+    width: 30%;
+    border-width: 0.25vw;
+}
 
-.button {}
+.button {
+    width: 25%;
+    
+    font-size: 1.8vw;
+    line-height: 4vw;  
+}
