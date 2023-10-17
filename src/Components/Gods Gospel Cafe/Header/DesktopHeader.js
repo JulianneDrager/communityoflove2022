@@ -33,7 +33,7 @@ const DesktopHeader = () => {
 
     return (
         <>
-            <main id="wrapper" class={`${WrapperStyle} ${DesktopWrapperStyle}`}>
+            <main id="wrapper" className={`${WrapperStyle} ${DesktopWrapperStyle}`}>
                 {/* Background Image */}
                 <Image src={BackgroundImage} className={`${BackgroundImageStyle} ${DesktopBackgroundImageStyle}`} />
 
