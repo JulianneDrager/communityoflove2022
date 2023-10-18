@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, Button } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 import ContactStyle from "./css/Contact.module.css";
 // Image imports
 // import BackgroundImage from "../../../images/";
