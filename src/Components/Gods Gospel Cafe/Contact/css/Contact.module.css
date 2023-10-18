@@ -4,7 +4,8 @@
     position: relative;
     z-index: 2;
     width: clamp(320px, 100%, 600px);
-    aspect-ratio: 1000 / 1726;
+    aspect-ratio: 209 / 272;
+    
 
     text-align: center;
 }
@@ -15,7 +16,7 @@
     top: 0;
     z-index: 1;
     width: clamp(320px, 100%, 600px);
-    aspect-ratio: 1000 / 1726;
+    aspect-ratio: 209 / 272;
 }
 
 .placeholderBackground {
@@ -53,16 +54,22 @@
 
     background-color: #17438D;
     border-radius: 2vw;
-    padding: 5% 0;
+    padding: 5%;
     
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 
 }
 
-.infoWrapper > p {
+.infoWrapper > p, .infoWrapper > a {
     margin: 0;
+
+    font-size: 5.4vw;
     color: white;
+}
+
+.webLink {
+    font-style: italic;
 }

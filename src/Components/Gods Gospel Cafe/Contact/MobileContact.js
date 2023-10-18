@@ -11,8 +11,8 @@ const MobileContact = () => {
     const PlaceholderBackgroundStyle = ContactStyle.placeholderBackground;
     const ContentWrapperStyle = ContactStyle.contentWrapper;
     const H1Style = ContactStyle.h1Style;
-
     const InfoWrapperStyle = ContactStyle.infoWrapper;
+    const WebLinkStyle = ContactStyle.webLink;
 
     return (
         <>
@@ -26,12 +26,12 @@ const MobileContact = () => {
                     <h1 className={H1Style}>Contact <span>Us</span></h1>
                     {/* Info Wrapper (blue box) */}
                     <div id="infoWrapper" className={InfoWrapperStyle}>
-                        <p>Text: "CEO"</p>
-                        <p>Text: mobile phone</p>
-                        <p>Text: "facebook"</p>
-                        <p>Text: Address</p>
-                        <p>Text: Email</p>
-                        <p>Text: Phone Number</p>
+                        <p>Sharon Chatman, CEO</p>
+                        <p>347.461.5185</p>
+                        <p>GodsGospelCafe17@gmail.com</p>
+                        <br/>
+                        <p>Follow us on Facebook!</p>
+                        <a className={WebLinkStyle}>....facebooklinkgoeshere....</a>
                     </div>
                 </div>
             </main >
