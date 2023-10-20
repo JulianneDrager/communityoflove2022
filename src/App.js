@@ -28,7 +28,7 @@ function App() {
 
         </Routes>
       </BrowserRouter>
-      {/* <Header></Header> */}
+      <Header></Header>
       <Contact></Contact>
     </body>
   );

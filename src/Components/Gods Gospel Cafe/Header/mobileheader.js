@@ -20,7 +20,7 @@ const MobileHeader = () => {
 
     return (
         <>
-            <main id="wrapper" class={WrapperStyle}>
+            <main id="wrapper" className={WrapperStyle}>
                 {/* Background Image */}
                 <Image src={BackgroundImage} className={BackgroundImageStyle} />
 
