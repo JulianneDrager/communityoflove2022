@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import ReadMore from "./Components/Community of Love/Testimonials/Readmore/ReadMore" 
 // import PrayerFormScreen from "./Components/Community of Love/Mission Statement/PrayerForm/PrayerFormScreen";
 import Header from "./Components/Gods Gospel Cafe/Header/Header";
+import Contact from "./Components/Gods Gospel Cafe/Contact/Contact";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <Header></Header>
+      <Contact></Contact>
     </body>
   );
 }

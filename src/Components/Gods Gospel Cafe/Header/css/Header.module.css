@@ -41,7 +41,7 @@
     margin-top: -2%;
 }
 
-h2 {
+.h2Style {
     font-weight: 400;
     font-size: 7vw;
     margin: 0;
@@ -64,7 +64,6 @@ h2 {
 
 .button {
     width: 70%;
-    height: clamp(36px, 10vw, 10vw);
 
     border-radius: 0%;
     border: none;
@@ -72,7 +71,51 @@ h2 {
     background-color: #A27F14;
 
     font-size: 4vw;
+    line-height: 8vw;
     letter-spacing: 2px;
-
 }
 
+@media screen and (min-width: 600px) {
+    .wrapper {
+        width: clamp(600px, 100%, 100%);
+        aspect-ratio: 1000 / 574;
+    }
+
+    .backgroundImage {
+        width: clamp(600px, 100%, 100%);
+    }
+
+    .contentWrapper {
+        padding-bottom: 4%;
+    }
+
+    .logoImage {
+        width: 20%;
+        margin-left: 2%;
+        margin-right: auto;
+    }
+
+    .contentImage {
+        width: 45%;
+        margin-top: -6%;
+        margin-bottom: -4%;
+    }
+
+    .h2Style {
+        font-size: 3.6vw;
+    }
+
+    .miniWrapper {}
+
+    .divider {
+        width: 30%;
+        border-width: 0.25vw;
+    }
+
+    .button {
+        width: 25%;
+
+        font-size: 1.8vw;
+        line-height: 4vw;
+    }
+}
