@@ -74,3 +74,39 @@
 .webLink {
     font-style: italic;
 }
+
+@media screen and (min-width: 600px) {
+    .wrapper {
+        width: clamp(600px, 100%, 100%);
+        aspect-ratio: 1000 / 574;
+    }
+    
+    .backgroundImage {
+        width: clamp(600px, 100%, 100%);
+        aspect-ratio: 1000 / 574;
+    }
+    
+    .contentWrapper {
+    
+    }
+    
+    .h1Style {
+        font-size: 10vw;
+    }
+    
+    .h1Style > span {
+    
+    }
+    
+    .infoWrapper {
+    
+    }
+    
+    .infoWrapper > p, .infoWrapper > a {
+        font-size: 3.4vw;
+    }
+    
+    .webLink {
+        
+    }
+}

@@ -1,7 +1,6 @@
 import React from "react";
 import { Image } from "react-bootstrap";
 import ContactStyle from "./css/Contact.module.css";
-import DesktopContactStyle from "./css/DesktopContact.module.css";
 // Image imports
 // import DesktopBackgroundImage from "../../../images/";
 
@@ -14,27 +13,18 @@ const DesktopContact = () => {
     const InfoWrapperStyle = ContactStyle.infoWrapper;
     const WebLinkStyle = ContactStyle.webLink;
 
-    // Desktop-specific styles
-    const DesktopWrapperStyle = DesktopContactStyle.wrapper;
-    const DesktopBackgroundImageStyle = DesktopContactStyle.backgroundImage;
-    const DesktopPlaceholderBackgroundStyle = DesktopContactStyle.placeholderBackground;
-    const DesktopContentWrapperStyle = DesktopContactStyle.contentWrapper;
-    const DesktopH1Style = DesktopContactStyle.h1Style;
-    const DesktopInfoWrapperStyle = DesktopContactStyle.infoWrapper;
-    const DesktopWebLinkStyle = DesktopContactStyle.webLink;
-
     return (
         <>
-            < main id="wrapper" className={`${WrapperStyle} ${DesktopWrapperStyle}`}>
+            < main id="wrapper" className={WrapperStyle}>
                 {/* Background image */}
-                <Image /* src={BackgroundImage} */ className={`${BackgroundImageStyle} ${DesktopBackgroundImageStyle} ${PlaceholderBackgroundStyle}`} />
+                <Image /* src={BackgroundImage} */ className={`${BackgroundImageStyle} ${PlaceholderBackgroundStyle}`} />
 
                 {/* Content Wrapper (blue box) */}
                 <div id="contentWrapper" className={ContentWrapperStyle}>
                     {/* H1 Title: "Contact Us" */}
-                    <h1 className={`${H1Style} ${DesktopH1Style}`}>Contact <span>Us</span></h1>
+                    <h1 className={H1Style}>Contact <span>Us</span></h1>
                     {/* Info Wrapper (blue box) */}
-                    <div id="infoWrapper" className={`${InfoWrapperStyle} ${DesktopInfoWrapperStyle}`}>
+                    <div id="infoWrapper" className={InfoWrapperStyle}>
                         <p>Sharon Chatman, CEO</p>
                         <p>347.461.5185</p>
                         <p>GodsGospelCafe17@gmail.com</p>
