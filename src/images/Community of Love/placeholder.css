@@ -1,0 +1,4 @@
+.placeholderBackground {
+    background-size: 16px 16px;
+    background-image: conic-gradient(#efefef 90deg, #888888 90deg 180deg, #efefef 180deg 270deg, #888888 270deg);
+}
