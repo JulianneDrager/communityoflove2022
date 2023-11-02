@@ -18,11 +18,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/tmp/communityoflove2022.com/" element={<Screen />} />
-          {/* <Route exact path="/tmp/communityoflove2022.com/about" element={<About />} />
+          <Route exact path="/tmp/communityoflove2022.com/about" element={<About />} />
           <Route exact path="/tmp/communityoflove2022.com/contact" element={<Contact />} />
           <Route exact path="/tmp/communityoflove2022.com/readmore" element={<ReadMore />} />
           <Route exact path="/tmp/communityoflove2022.com/prayer" element={<PrayerFormScreen />} />
-          <Route exact path="/tmp/communityoflove2022.com/thankyou-general/:name" element={<Thankyou />} /> */}
+          <Route exact path="/tmp/communityoflove2022.com/thankyou-general/:name" element={<Thankyou />} />
         </Routes>
       </BrowserRouter>
     </body>

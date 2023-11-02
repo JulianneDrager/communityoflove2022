@@ -6,8 +6,10 @@ import HeaderStyles from "./css/services-header.module.css";
 const ServicesHeader = () => {
 
     const mainContainer = HeaderStyles.mainContainer;
+    const titlesContainer = HeaderStyles.titlesContainer;
     const h1Style = HeaderStyles.h1Style;
     const h2Style = HeaderStyles.h2Style;
+    const divider = HeaderStyles.divider;
     const contentContainer = HeaderStyles.contentContainer;
     const h3Style = HeaderStyles.h3Style;
     const paragraph = HeaderStyles.paragraph;
@@ -16,8 +18,11 @@ const ServicesHeader = () => {
     return (
         <>
             <main className={mainContainer}>
-                <h1 className={h1Style}>Community of Love</h1>
-                <h2 className={h2Style}>Family & Business Services</h2>
+                <section className={titlesContainer}>
+                    <h1 className={h1Style}>Community of Love</h1>
+                    <h2 className={h2Style}>Family & Business Services</h2>
+                    <span className={divider}></span>
+                </section>
                 <section className={contentContainer}>
                     <h3 className={h3Style}>Welcome</h3>
                     <p className={paragraph}><span>Coming soon, we will be offering various services for families and businesses alike.</span></p>

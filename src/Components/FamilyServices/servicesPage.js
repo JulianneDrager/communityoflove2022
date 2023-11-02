@@ -9,12 +9,12 @@ import ServicesFamily from "./services-components/services-family";
 const ServicesPage = () => {
 
     const mainContainer = ServiceStyles.mainContainer;
+    const headerDesktopStyle = ServiceStyles.headerDesktopStyle;
 
     return (
         <>
             <div className={mainContainer}>
-                Services Page is working!
-                <ServicesHeader/>
+                <ServicesHeader className={headerDesktopStyle}/>
                 <ServicesBusiness/>
                 <ServicesFamily/>
                 <ServicesContact/>

@@ -1,4 +1,16 @@
 .mainContainer {
-    background-color: red;
     padding: 5px;
+
+    background-image: url('../../../images/Community of Love/comming-soon-city-sky-background.jpg');
+    background-size: cover;
+}
+
+
+@media screen and (min-width: 728px) {
+
+    .mainContainer {
+        padding: 0;
+        background-size: 16px 16px;
+        background-image: conic-gradient(#ff8686 90deg, #7e3c3c 90deg 180deg, #ff8686 180deg 270deg, #7e3c3c 270deg);      
+    }
 }
