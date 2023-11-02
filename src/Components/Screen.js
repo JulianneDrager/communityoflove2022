@@ -21,8 +21,8 @@ const matchesLg = useMediaQuery("(min-width:765px)");
 
   return (
     <>
-      <Container className="p-0">
-       {/* { !matchesLg && <Nav />}
+      {/* <Container className="p-0">
+       { !matchesLg && <Nav />}
        { matchesLg && <NavDesktop />}
         <Header />
         <div style={{ marginTop: "-5rem" }}>
@@ -38,7 +38,7 @@ const matchesLg = useMediaQuery("(min-width:765px)");
           </div>
         </div> */}
         <ServicesPage/>
-      </Container>
+      {/* </Container> */}
     </>
   );
 };
