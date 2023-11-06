@@ -54,7 +54,7 @@
     width: 80%;
     margin: 0;
 
-    font-size: 3vw;
+    font-size: 4vw;
     text-align: center;
 }
 
@@ -126,5 +126,54 @@
         width: 34%;
         height: 6vw;
         font-size: 2.2vw;
+    }
+}
+
+/* Desktop view: all 'vw'/percentage values lock at their calculation of 1600px */
+@media screen and (min-width: 1600px) {
+    .mainContainer {}
+
+    .titlesContainer {}
+
+    .contentContainer {
+        width: calc(1600px * 0.95);
+        padding: 16px 0;
+    
+        margin: 32px 0 64px 0;
+    }
+
+    .h1Style,
+    .h2Style,
+    .h3Style {}
+
+    .h1Style {
+        font-size: calc(1600px * .08);
+    }
+
+    .h2Style {
+        font-size: calc(1600px * .07);
+    }
+
+    .divider {}
+
+    .h3Style {
+        font-size: calc(1600px * .07);
+        font-weight: 400;
+    }
+
+    .paragraph {
+        width: calc(1600px * 0.84);
+        font-size: calc(1600px * 0.02);
+    }
+
+    .paragraph>span {}
+
+    .btnSurvey {
+        width: calc(1600px * 0.34);
+        height: calc(1600px * 0.06);
+        margin: 32px 0;
+
+        font-size: calc(1600px * 0.022);
+        letter-spacing: calc(1600px * 0.002);
     }
 }
