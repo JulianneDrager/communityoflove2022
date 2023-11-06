@@ -2,7 +2,8 @@
 
 .mainContainer {
     width: 100%;
-
+    max-width: 1600px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,7 +132,9 @@
 
 /* Desktop view: all 'vw'/percentage values lock at their calculation of 1600px */
 @media screen and (min-width: 1600px) {
-    .mainContainer {}
+    .mainContainer {
+
+    }
 
     .titlesContainer {}
 
