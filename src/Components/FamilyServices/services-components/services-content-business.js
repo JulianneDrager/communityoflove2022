@@ -1,17 +1,18 @@
 import React from "react";
+import ServicesContent from "./services-content/services-content";
 import { Image, Button } from "react-bootstrap";
-import ServiceStyles from "../css/ServicesPage.module.css";
-import BusinessStyles from "./css/services-business.module.css";
+import ContentBusinessStyles from "./services-content/css/services-content-business.module.css";
 
 const ServicesBusiness = () => {
 
-    const mainContainer = BusinessStyles.mainContainer;
+    const mainContainer = ContentBusinessStyles.mainContainer;
 
     return (
         <>
             <div className={mainContainer}>
                 Services Business is working!
             </div>
+            <ServicesContent/>
         </>
     )
 }

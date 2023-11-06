@@ -132,15 +132,12 @@
 
 /* Desktop view: all 'vw'/percentage values lock at their calculation of 1600px */
 @media screen and (min-width: 1600px) {
-    .mainContainer {
-
-    }
+    .mainContainer {}
 
     .titlesContainer {}
 
     .contentContainer {
         padding: 16px 0;
-    
         margin: 32px 0 64px 0;
     }
 
@@ -160,7 +157,6 @@
 
     .h3Style {
         font-size: calc(1600px * .07);
-        font-weight: 400;
     }
 
     .paragraph {

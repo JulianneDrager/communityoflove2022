@@ -1,17 +1,19 @@
 import React from "react";
+import ServicesContent from "./services-content/services-content";
 import { Image, Button } from "react-bootstrap";
-import ServiceStyles from "../css/ServicesPage.module.css";
-import FamilyStyles from "./css/services-family.module.css";
+import ContentFamilyStyles from "./services-content/css/services-content-family.module.css";
+
 
 const ServicesFamily = () => {
 
-    const mainContainer = FamilyStyles.mainContainer;
+    const mainContainer = ContentFamilyStyles.mainContainer;
 
     return (
         <>
             <div className={mainContainer}>
                 Services Family is working!
             </div>
+            <ServicesContent/>
         </>
     )
 }
