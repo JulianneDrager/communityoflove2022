@@ -139,7 +139,6 @@
     .titlesContainer {}
 
     .contentContainer {
-        width: calc(1600px * 0.95);
         padding: 16px 0;
     
         margin: 32px 0 64px 0;
@@ -165,14 +164,12 @@
     }
 
     .paragraph {
-        width: calc(1600px * 0.84);
         font-size: calc(1600px * 0.02);
     }
 
     .paragraph>span {}
 
     .btnSurvey {
-        width: calc(1600px * 0.34);
         height: calc(1600px * 0.06);
         margin: 32px 0;
 
