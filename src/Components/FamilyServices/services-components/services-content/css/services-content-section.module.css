@@ -1,0 +1,19 @@
+.mainContainer {
+    background-color: red;
+}
+
+.titleContainer {
+    background-color: rgb(255, 85, 0);
+}
+
+.titleContainer > h1 {
+    background-color: rgb(255, 145, 0);
+}
+
+.subtitleContainer {
+    background-color: rgb(0, 255, 47);
+}
+
+.subtitleContainer > h2 {
+    background-color: rgb(0, 255, 179);
+}

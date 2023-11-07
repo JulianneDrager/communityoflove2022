@@ -1,18 +1,27 @@
 import React from "react";
 import ServicesContent from "./services-content/services-content";
 import { Image, Button } from "react-bootstrap";
-import ContentBusinessStyles from "./services-content/css/services-content-business.module.css";
+import ContentSectionStyles from "./services-content/css/services-content-section.module.css";
 
 const ServicesBusiness = () => {
 
-    const mainContainer = ContentBusinessStyles.mainContainer;
+    const mainContainer = ContentSectionStyles.mainContainer;
+    const titleContainer = ContentSectionStyles.titleContainer;
+    const subtitleContainer = ContentSectionStyles.subtitleContainer;
 
     return (
         <>
-            <div className={mainContainer}>
-                Services Business is working!
-            </div>
-            <ServicesContent/>
+            <main className={mainContainer}>
+                <section className={titleContainer}>
+                    <h1>Business Services List</h1>
+                </section>
+                <section className={subtitleContainer}>
+                    <h2>Hiring Services</h2>
+                </section>
+                <ServicesContent/>
+                <ServicesContent/>
+                <ServicesContent/>
+            </main>
         </>
     )
 }
