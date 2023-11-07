@@ -1,0 +1,17 @@
+.mainContainer {
+    background-color: magenta;
+}
+
+.iconImage {}
+
+.h3Style {}
+
+.h4Style {}
+
+.article {}
+
+.priceRow {}
+
+.priceRow > p {
+    display: inline-block;
+}
