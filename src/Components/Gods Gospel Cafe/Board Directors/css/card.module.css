@@ -4,12 +4,14 @@
 .cardContainer {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     gap: 1.5em;
     padding: 19px 0 0 0;
     text-align: center;
     font-size: 1rem;
     line-height: 1.3rem;
     font-style: italic;
+    height: 150px;
 }
 
 .cardTitle {
@@ -43,7 +45,7 @@
 
     .cardContainer {
         margin: 1rem 0;
-        background-color: #17428de6;
+        background-color: #17428d;
         border-radius: .5rem;
         margin: 0 0 1rem 0;
     }
@@ -67,4 +69,13 @@
     .cardContainer {
         padding: 48px 0 38px 0;
     }
+}
+
+.divider {
+    width: 100%;
+    /* height: auto; */
+    height: 12px;
+    margin: -2.5rem 0 0 0;
+    background-size: 16px 16px;
+    background-image: conic-gradient(rgb(227, 255, 113) 90deg, rgb(209, 255, 27) 90deg 180deg, rgb(227, 255, 113) 180deg 270deg, rgb(209, 255, 27) 270deg);
 }

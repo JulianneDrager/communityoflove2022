@@ -1,9 +1,11 @@
-import goldDivider from "../../../ggcf-images/mobile-board/mobile-gold-divider-board.png";
-import whiteDivider from "../../../ggcf-images/mobile-board/mobile-white-divider-board.png";
+// import goldDivider from "../../../ggcf-images/mobile-board/mobile-gold-divider-board.png";
+// import whiteDivider from "../../../ggcf-images/mobile-board/mobile-white-divider-board.png";
 import cardStyle from "./css/card.module.css"
 
 const pStyle = cardStyle.pStyle
 const biancaStyle = cardStyle.biancaStyle
+const divider = cardStyle.divider;
+
 const boardCardData = [
   {
     id: 1,
@@ -14,12 +16,12 @@ const boardCardData = [
     ),
     name: (
       <>
-        <p className={biancaStyle}>Bianca Faith Johnson J.D</p>
-        <img
-          style={{ width: "100%", height: "auto", margin: "-2.5rem 0 0 0" }}
-          src={goldDivider}
+        <div
+          className={divider}
+          /* src={goldDivider} */
           alt="divider"
-        />
+        ></div>
+        <p className={biancaStyle}>Bianca Faith Johnson J.D</p>
       </>
     ),
   },
@@ -32,12 +34,13 @@ const boardCardData = [
     ),
     name: (
       <>
-        <p>Debra Miller</p>
-        <img
-          style={{ width: "100%", height: "auto", margin: "-2.5rem 0 0 0" }}
-          src={whiteDivider}
+        <div
+          className={divider}
+          /* src={whiteDivider} */
           alt="divider"
-        />
+        ></div>
+        <p>Debra Miller</p>
+
       </>
     ),
   },
@@ -50,12 +53,13 @@ const boardCardData = [
     ),
     name: (
       <>
-        <p>Brandi Carter</p>
-        <img
-          style={{ width: "100%", height: "auto", margin: "-2.5rem 0 0 0" }}
-          src={whiteDivider}
+        <div
+          className={divider}
+          /* src={whiteDivider} */
           alt="divider"
-        />
+        ></div>
+        <p>Brandi Carter</p>
+
       </>
     ),
   },
@@ -68,12 +72,13 @@ const boardCardData = [
     ),
     name: (
       <>
-        <p>Jermell Griffin</p>
-        <img
-          style={{ width: "100%", height: "auto", margin: "-2.5rem 0 0 0" }}
-          src={whiteDivider}
+        <div
+          className={divider}
+          /* src={whiteDivider} */
           alt="divider"
-        />
+        ></div>
+        <p>Jermell Griffin</p>
+
       </>
     ),
   },
@@ -86,12 +91,13 @@ const boardCardData = [
     ),
     name: (
       <>
-        <p>Bonnie Weaver</p>
-        <img
-          style={{ width: "100%", height: "auto", margin: "-2.5rem 0 0 0" }}
-          src={whiteDivider}
+        <div
+          className={divider}
+          /* src={whiteDivider} */
           alt="divider"
-        />
+        ></div>
+        <p>Bonnie Weaver</p>
+
       </>
     ),
   },
@@ -104,12 +110,13 @@ const boardCardData = [
     ),
     name: (
       <>
-        <p>Kiana Newell</p>
-        <img
-          style={{ width: "100%", height: "auto", margin: "-2.5rem 0 0 0" }}
-          src={whiteDivider}
+        <div
+          className={divider}
+          /* src={whiteDivider} */
           alt="silver-divider"
-        />
+        ></div>
+        <p>Kiana Newell</p>
+
       </>
     ),
   },

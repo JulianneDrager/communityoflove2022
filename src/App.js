@@ -7,6 +7,7 @@ import Thankyou from "./Components/Thank You/Thankyou";
 import Screen from "./Components/Screen";
 import ReadMore from "./Components/Community of Love/Testimonials/Readmore/ReadMore" 
 import PrayerFormScreen from "./Components/Community of Love/Mission Statement/PrayerForm/PrayerFormScreen";
+import BoardDirector from "./Components/Gods Gospel Cafe/Board Directors/BoardDirector"
 // import Header from "./Components/Gods Gospel Cafe/Header/Header";
 // import Contact from "./Components/Gods Gospel Cafe/Contact/Contact";
 
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/tmp/communityoflove2022.com/readmore" element={<ReadMore />} />
           <Route exact path="/tmp/communityoflove2022.com/prayer" element={<PrayerFormScreen />} />
           <Route exact path="/tmp/communityoflove2022.com/thankyou-general/:name" element={<Thankyou />} />
+          <Route exact path="/tmp/communityoflove2022.com/board" element={<BoardDirector />} />
         </Routes>
       </BrowserRouter>
     </body>

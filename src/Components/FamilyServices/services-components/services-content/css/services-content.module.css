@@ -1,12 +1,15 @@
 .mainContainer {
-    background-color: magenta;
+    background-color: yellow;
+    margin: 2vw 0;
 }
 
 .iconImage {}
 
-.h3Style {}
+.title {}
 
-.h4Style {}
+.question {}
+
+.subtitle {}
 
 .article {}
 

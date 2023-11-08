@@ -3,8 +3,8 @@ import { Row, Image } from "react-bootstrap";
 import BoardStyle from "./css/BoardDirectorStyle.module.css";
 import BoardData from "./BoardData";
 import BoardCard from "./BoardCard";
-import BoardTitle from "../../../ggcf-images/mobile-board/mobile-title-board.png";
-import BoardTitleDesktop from "../../../ggcf-images/desktop-board/desktop-board-title.png";
+// import BoardTitle from "../../../ggcf-images/mobile-board/mobile-title-board.png";
+// import BoardTitleDesktop from "../../../ggcf-images/desktop-board/desktop-board-title.png";
 import { useMediaQuery } from "@mui/material";
 
 const BoardDirector = () => {
@@ -13,6 +13,7 @@ const BoardDirector = () => {
   const rowWrapper = BoardStyle.rowWrapper;
   const mainWrapper = BoardStyle.mainWrapper;
   const boardTitleStyle = BoardStyle.boardTitleStyle;
+  const boardTitlePlaceholder = BoardStyle.boardTitlePlaceholder;
   const goldBar = BoardStyle.goldBar;
   const matches595MinWidth = useMediaQuery("(min-width: 595px)");
   const matchedLg = useMediaQuery("(min-width: 765px)");
@@ -28,12 +29,12 @@ const BoardDirector = () => {
         <div className={rowWrapper}>
           {/* for mobile view up to 595px to show title on 2 lines */}
           {matches595MinWidth && (
-            <Image src={BoardTitleDesktop} className={boardTitleStyle} />
+            <div /* src={BoardTitleDesktop} */ className={`boardTitleStyle boardTitlePlaceholder`} ></div>
           )}
 
           {/* for desktop view from 595px and higher to show title on 1 line*/}
           {!matches595MinWidth && (
-            <Image src={BoardTitle} className={boardTitleStyle} />
+            <div /* src={BoardTitle} */ className={`boardTitleStyle boardTitlePlaceholder`} ></div>
           )}
 
           {/* for mobile view to stack cards */}
