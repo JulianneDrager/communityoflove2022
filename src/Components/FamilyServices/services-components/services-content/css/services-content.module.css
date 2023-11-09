@@ -3,13 +3,17 @@
     margin: 2vw 0;
 }
 
-.iconImage {}
+.iconImageMobile {
+
+}
+
+.iconImageDesktop {}
 
 .title {}
 
 .question {}
 
-.subtitle {}
+.articleHead {}
 
 .article {}
 

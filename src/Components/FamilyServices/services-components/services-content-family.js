@@ -4,8 +4,6 @@ import ContentSectionStyles from "./services-content/css/services-content-sectio
 import ServicesData from "./services-content/services-data";
 import ServicesContentItem from "./services-content/services-content-item";
 
-
-
 const ServicesFamily = () => {
 
     const mainContainer = ContentSectionStyles.mainContainer;
