@@ -1,7 +1,9 @@
 import React from "react";
-import ServicesContent from "./services-content/services-content";
 import { Image, Button } from "react-bootstrap";
 import ContentSectionStyles from "./services-content/css/services-content-section.module.css";
+import ServicesData from "./services-content/services-data";
+import ServicesContentItem from "./services-content/services-content-item";
+
 
 
 const ServicesFamily = () => {
@@ -9,6 +11,10 @@ const ServicesFamily = () => {
     const mainContainer = ContentSectionStyles.mainContainer;
     const titleContainer = ContentSectionStyles.titleContainer;
     const subtitleContainer = ContentSectionStyles.subtitleContainer;
+
+    const servicesContent = ServicesData.map((item) => {
+        return <ServicesContentItem key={item.id} {...item}/>;
+    });
 
     return (
         <>
@@ -19,9 +25,7 @@ const ServicesFamily = () => {
                 <section className={subtitleContainer}>
                     <h2>Fulifillment Services</h2>
                 </section>
-                <ServicesContent/>
-                <ServicesContent/>
-                <ServicesContent/>
+                {servicesContent[0]}
             </main>
         </>
     )
