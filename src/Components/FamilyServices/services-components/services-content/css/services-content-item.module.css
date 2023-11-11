@@ -1,25 +1,138 @@
+:root {
+    --border-style: dashed;
+    --border-width: 1px;
+}
+/* tell gh copilot to simplify this */
+
 .mainContainer {
     background-color: yellow;
     margin: 2vw 0;
+    border: red dashed 1px;
 }
 
-.iconImageMobileStyle {
-    width: 100px;
-    height: 100px;
+.mainContainer {
+    background-color: yellow;
+    margin: 2vw 0;
+    border: var(--border-width) var(--border-style) var(--border-color);
 }
 
-.iconImageDesktopStyle {}
+.iconContainer {
+    position: relative;
+    z-index: 0;
+    aspect-ratio: 216 / 97;
+    border: var(--border-width) var(--border-style) var(--border-color);
 
-.title {}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.question {}
+.titleIcon {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    aspect-ratio: 216 / 97;
+    border: var(--border-width) var(--border-style) var(--border-color);
+}
 
-.articleHead {}
+.title {
+    position: absolute;
+    z-index: 2;
+    top: 2vw;
 
-.article {}
+    color: white;
+    font-size: 6vw;
+    border: var(--border-width) var(--border-style) var(--border-color);
+}
 
-.priceRow {}
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: var(--border-width) var(--border-style) var(--border-color);
+}
+
+.question {
+    border: var(--border-width) var(--border-style) var(--border-color);
+}
+
+.articleHead {
+    border: var(--border-width) var(--border-style) var(--border-color);
+}
+
+.article {
+    border: var(--border-width) var(--border-style) var(--border-color);
+}
+
+.pricesContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: var(--border-width) var(--border-style) var(--border-color);
+}
 
 .priceRow > p {
     display: inline-block;
+    border: var(--border-width) var(--border-style) var(--border-color);
+}
+
+.iconContainer {
+    position: relative;
+    z-index: 0;
+    aspect-ratio: 216 / 97;
+    border: var(--border-color) dashed 1px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleIcon {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    aspect-ratio: 216 / 97;
+    border: var(--border-color) dashed 1px;
+}
+
+.title {
+    position: absolute;
+    z-index: 2;
+    top: 2vw;
+
+    color: white;
+    font-size: 6vw;
+    border: var(--border-color) dashed 1px;
+}
+
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: var(--border-color) dashed 1px;
+}
+
+.question {
+    border: var(--border-color) dashed 1px;
+}
+
+.articleHead {
+    border: var(--border-color) dashed 1px;
+}
+
+.article {
+    border: var(--border-color) dashed 1px;
+}
+
+.pricesContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: var(--border-color) dashed 1px;
+}
+
+.priceRow > p {
+    display: inline-block;
+    border: var(--border-color) dashed 1px;
 }
