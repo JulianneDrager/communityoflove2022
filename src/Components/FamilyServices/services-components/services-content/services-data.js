@@ -5,8 +5,8 @@ import React from "react";
 const ServicesData = [
   {
     id: 0,
-    iconImageMobile: "images/Community of Love/services/mobile-service/employment-icon.jpg",
-    iconImageDesktop: "images/Community of Love/services/desktop-service/employment-icon.jpg",
+    iconImageMobilePath: "Community of Love/services/mobile-service/employment-icon.jpg",
+    iconImageDesktopPath: "Community of Love/services/desktop-service/employment-icon.jpg",
     title: "Employment Services",
     question: "Are you an employer?",
     articleHead: "Seamlessly post your needs and communicate with qualified talent.",
@@ -16,8 +16,8 @@ const ServicesData = [
   },
   {
     id: 1,
-    iconImageMobile: "images/Community of Love/services/mobile-service/employment--opp-icon.jpg",
-    iconImageDesktop: "images/Community of Love/services/desktop-service/employment--opp-icon.jpg",
+    iconImageMobilePath: "Community of Love/services/mobile-service/employment--opp-icon.jpg",
+    iconImageDesktopPath: "Community of Love/services/desktop-service/employment--opp-icon.jpg",
     title: "Employment Opportunities",
     question: "Are you actively searching for employment?",
     articleHead: "Apply and be matched for the perfect position!",

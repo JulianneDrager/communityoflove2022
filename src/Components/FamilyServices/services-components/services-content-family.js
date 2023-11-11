@@ -3,6 +3,7 @@ import { Image, Button } from "react-bootstrap";
 import ContentSectionStyles from "./services-content/css/services-content-section.module.css";
 import ServicesData from "./services-content/services-data";
 import ServicesContentItem from "./services-content/services-content-item";
+import { hexToRgb } from "@mui/material";
 
 const ServicesFamily = () => {
 
@@ -10,8 +11,8 @@ const ServicesFamily = () => {
     const titleContainer = ContentSectionStyles.titleContainer;
     const subtitleContainer = ContentSectionStyles.subtitleContainer;
 
-    const servicesContent = ServicesData.map((item) => {
-        return <ServicesContentItem key={item.id} {...item}/>;
+    const servicesContent = ServicesData.map((item, index) => {
+        return <ServicesContentItem key={index} {...item}/>;
     });
 
     return (

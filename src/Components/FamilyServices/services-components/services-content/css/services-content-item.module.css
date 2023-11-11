@@ -3,11 +3,12 @@
     margin: 2vw 0;
 }
 
-.iconImageMobile {
-
+.iconImageMobileStyle {
+    width: 100px;
+    height: 100px;
 }
 
-.iconImageDesktop {}
+.iconImageDesktopStyle {}
 
 .title {}
 
