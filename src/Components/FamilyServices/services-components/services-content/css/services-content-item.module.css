@@ -2,6 +2,8 @@
 
 :root {
     --border-test: green dashed 2px;
+    --primary: #17438D;
+    --secondary: #A98519;
 }
 
 .mainContainer {
@@ -32,29 +34,48 @@
 
     color: white;
     font-size: 6vw;
+    text-transform: uppercase;
 }
 
 .contentContainer {
+    padding: 5vw;
+
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .question {
+    margin-right: auto;
+    margin-bottom: 0;
+
+    font-size: 4vw;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .articleHead {
+    margin-right: auto;
+    margin-bottom: 0;
+
+    font-size: 3.6vw;
+    font-weight: 450;
+    font-style: italic;
 }
 
 .article {
+    font-size: 3vw;
 }
 
 .pricesContainer {
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
 }
 
 .priceRow > p {
     display: inline-block;
+    color: var(--primary);
 }

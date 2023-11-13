@@ -21,23 +21,26 @@ const ServicesContentItem = (props) => {
 
     return (
         <>
-            {!matchedLg && (
-                <main className={mainContainer}>
-                    <div className={iconContainer}>
-                        <Image src={imagesContext(`./${props.iconImageMobilePath}`)} className={titleIcon} alt="" />
-                        <h3 className={title}>{props.title}</h3>
-                    </div>
-                    <div className={contentContainer}>
-                        <h4 className={question}>{props.question}</h4>
-                        <h5 className={articleHead}>{props.articleHead}</h5>
-                        <article className={article}>{props.article}</article>
-                        <div className={pricesContainer}>
-                            <p>{props.priceMonth}</p>
-                            <p>{props.priceYear}</p>
+            {!matchedLg &&
+                // mobile view
+                (
+                    <main className={mainContainer}>
+                        <div className={iconContainer}>
+                            <Image src={imagesContext(`./${props.iconImageMobilePath}`)} className={titleIcon} alt="" />
+                            <h3 className={title}>{props.title}</h3>
                         </div>
-                    </div>
-                </main>
-            ) || (
+                        <div className={contentContainer}>
+                            <h4 className={question}>{props.question}</h4>
+                            <h5 className={articleHead}>{props.articleHead}</h5>
+                            <article className={article}>{props.article}</article>
+                            <div className={pricesContainer}>
+                                <p>{props.priceMonth}</p>
+                                <p>{props.priceYear}</p>
+                            </div>
+                        </div>
+                    </main>
+                ) || (
+                    // desktop view
                     <main className={mainContainer}>
                         <div className={iconContainer}>
                             <Image src={imagesContext(`./${props.iconImageDesktopPath}`)} className={titleIcon} alt="" />
