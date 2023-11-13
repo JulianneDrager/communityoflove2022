@@ -25,6 +25,7 @@ const ServicesFamily = () => {
                     <h2>Fulfillment Services</h2>
                 </section>
                 {servicesContent[0]}
+                {servicesContent[1]}
             </main>
         </>
     )
