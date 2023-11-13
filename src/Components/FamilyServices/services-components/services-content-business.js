@@ -7,7 +7,7 @@ import ServicesContentItem from "./services-content/services-content-item";
 const ServicesBusiness = () => {
 
     const mainContainer = ContentSectionStyles.mainContainer;
-    const titleContainer = ContentSectionStyles.titleContainer;
+    const titleContainerBusiness = ContentSectionStyles.titleContainerBusiness;
     const subtitleContainer = ContentSectionStyles.subtitleContainer;
 
     const servicesContent = ServicesData.map((item) => {
@@ -18,7 +18,7 @@ const ServicesBusiness = () => {
     return (
         <>
             <main className={mainContainer}>
-                <section className={titleContainer}>
+                <section className={titleContainerBusiness}>
                     <h1>Business Services List</h1>
                 </section>
                 <section className={subtitleContainer}>

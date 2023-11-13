@@ -8,7 +8,7 @@ import { hexToRgb } from "@mui/material";
 const ServicesFamily = () => {
 
     const mainContainer = ContentSectionStyles.mainContainer;
-    const titleContainer = ContentSectionStyles.titleContainer;
+    const titleContainerFamily = ContentSectionStyles.titleContainerFamily;
     const subtitleContainer = ContentSectionStyles.subtitleContainer;
 
     const servicesContent = ServicesData.map((item, index) => {
@@ -18,11 +18,11 @@ const ServicesFamily = () => {
     return (
         <>
             <main className={mainContainer}>
-                <section className={titleContainer}>
+                <section className={titleContainerFamily}>
                     <h1>Family Services List</h1>
                 </section>
                 <section className={subtitleContainer}>
-                    <h2>Fulifillment Services</h2>
+                    <h2>Fulfillment Services</h2>
                 </section>
                 {servicesContent[0]}
             </main>

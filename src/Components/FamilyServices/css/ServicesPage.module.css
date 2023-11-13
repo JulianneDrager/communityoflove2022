@@ -1,8 +1,12 @@
 .mainContainer {
-    padding: 5px;
+    padding: 0% 3%;
 
     background-image: url('images/Community of Love/comming-soon-city-sky-background.jpg');
     background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
