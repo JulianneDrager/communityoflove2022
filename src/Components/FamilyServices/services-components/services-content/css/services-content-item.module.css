@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
 
-:root {
-    --border-test: green dashed 2px;
-    --primary: #17438D;
-    --secondary: #A98519;
-}
-
 .mainContainer {
     border: var(--border-test);
 }
@@ -75,7 +69,8 @@
     justify-content: space-around;
 }
 
-.priceRow > p {
+.pricesContainer > p {
     display: inline-block;
-    color: var(--primary);
+    color: var(--color-primary);
+    font-family: var(--font-primary);
 }
