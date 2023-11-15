@@ -70,7 +70,7 @@
     justify-content: space-between;
 }
 
-.pricesContainer > p {
+.pricesContainer>p {
     margin: 0;
     display: inline-block;
 
@@ -80,4 +80,31 @@
     font-weight: 600;
 }
 
-@media screen and (min-width: 728px) {}
+@media screen and (min-width: 728px) {
+    .mainContainer {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .iconContainer {
+        width: 33%;
+        aspect-ratio: 1;
+    }
+
+    .titleIcon {
+        aspect-ratio: 1;
+    }
+
+    .title {
+        font-size: 3vw;
+        text-align: center;
+        font-weight: 700;
+        letter-spacing: 0.1vw;
+    }
+
+    .contentContainer {
+        width: 67%;
+        padding: 1vw 6vw;
+    }
+}

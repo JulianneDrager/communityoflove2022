@@ -64,7 +64,7 @@
 
         clip-path: none;
         background-size: 16px 16px;
-        background-image: conic-gradient(#acff86 90deg, #5d8e46 90deg 180deg, #acff86 180deg 270deg, #5d8e46 270deg);
+        background-image: conic-gradient(#e2ffd5 90deg, #77866f 90deg 180deg, #e2ffd5 180deg 270deg, #77866f 270deg);
     }
 
     .titleContainerBusiness>h1,
