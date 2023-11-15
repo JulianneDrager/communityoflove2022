@@ -9,7 +9,8 @@
 }
 
 /* note: using title/subtitle containers due to drastic changes in mobile vs desktop */
-.titleContainerBusiness, .titleContainerFamily {
+.titleContainerBusiness,
+.titleContainerFamily {
     margin-top: 8vw;
     width: 100%;
     padding: 10vw 0;
@@ -29,7 +30,8 @@
     clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 75%);
 }
 
-.titleContainerBusiness > h1, .titleContainerFamily > h1 {
+.titleContainerBusiness>h1,
+.titleContainerFamily>h1 {
     padding: 0px 14vw;
     text-align: center;
 
@@ -47,9 +49,46 @@
     align-items: center;
 }
 
-.subtitleContainer > h2 {
+.subtitleContainer>h2 {
     font-size: 10vw;
     font-weight: 600;
     font-family: var(--font-primary);
     color: var(--color-primary);
+}
+
+@media screen and (min-width: 728px) {
+
+    .titleContainerBusiness,
+    .titleContainerFamily {
+        padding: 8vw 0 4vw;
+
+        clip-path: none;
+        background-size: 16px 16px;
+        background-image: conic-gradient(#acff86 90deg, #5d8e46 90deg 180deg, #acff86 180deg 270deg, #5d8e46 270deg);
+    }
+
+    .titleContainerBusiness>h1,
+    .titleContainerFamily>h1 {
+        padding: 0;
+        font-size: 8vw;
+        color: var(--color-primary);
+    }
+
+    .subtitleContainer {
+        margin-top: 0;
+        padding-left: 8vw;
+        width: 100%;
+
+        flex-direction: row;
+        background-color: var(--color-secondary);
+    }
+
+    .subtitleContainer > h2 {
+        padding: 0 1.6vw 1vw;
+        margin-bottom: 0;
+        background-color: white;
+
+        font-size: 6vw;
+        color: black;
+    }
 }
