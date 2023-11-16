@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
 
 .mainContainer {
-    border: var(--border-test);
+    /* border: var(--border-test); */
 }
 
 .iconContainer {
@@ -82,9 +82,12 @@
 
 @media screen and (min-width: 728px) {
     .mainContainer {
+        margin-top: 2vw;
+
         display: flex;
         flex-direction: row;
 
+        background-color: rgba(255, 255, 255, 0.738);
     }
 
     .iconContainer {
@@ -105,6 +108,24 @@
 
     .contentContainer {
         width: 67%;
-        padding: 1vw 6vw;
+        padding: 1vw 5vw;
+        justify-content: space-between;
     }
+    
+    .question,
+    .articleHead {
+        font-size: 2vw;
+    }
+    
+    .article {
+        font-size: 1.6vw
+    }
+    
+    .pricesContainer {
+    }
+    
+    .pricesContainer>p {
+        font-size: 4vw;
+    }
+    
 }

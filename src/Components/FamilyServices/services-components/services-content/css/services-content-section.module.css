@@ -58,13 +58,17 @@
 
 @media screen and (min-width: 728px) {
 
+    .mainContainer {
+        background-size: 16px 16px;
+        background-image: conic-gradient(#e2ffd5 90deg, #77866f 90deg 180deg, #e2ffd5 180deg 270deg, #77866f 270deg);
+    }
+
     .titleContainerBusiness,
     .titleContainerFamily {
         padding: 8vw 0 4vw;
 
         clip-path: none;
-        background-size: 16px 16px;
-        background-image: conic-gradient(#e2ffd5 90deg, #77866f 90deg 180deg, #e2ffd5 180deg 270deg, #77866f 270deg);
+        background-color: transparent;
     }
 
     .titleContainerBusiness>h1,
