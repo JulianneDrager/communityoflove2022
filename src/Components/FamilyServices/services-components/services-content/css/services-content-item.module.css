@@ -29,6 +29,12 @@
     color: white;
     font-size: 6vw;
     text-transform: uppercase;
+
+    text-align: center;
+}
+
+.title > span {
+    font-size: 5vw;
 }
 
 .contentContainer {
@@ -50,6 +56,7 @@
 }
 
 .articleHead {
+    margin-top: 1vw;
     margin-right: auto;
     margin-bottom: 0;
 
@@ -59,6 +66,7 @@
 }
 
 .article {
+    margin-top: 1vw;
     font-size: 3vw;
 }
 
@@ -104,6 +112,10 @@
         text-align: center;
         font-weight: 700;
         letter-spacing: 0.1vw;
+    }
+
+    .title > span {
+        font-size: 2.6vw;
     }
 
     .contentContainer {

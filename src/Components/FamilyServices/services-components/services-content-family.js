@@ -24,8 +24,7 @@ const ServicesFamily = () => {
                 <section className={subtitleContainer}>
                     <h2>Fulfillment Services</h2>
                 </section>
-                {servicesContent[0]}
-                {servicesContent[1]}
+                {servicesContent[2]}
             </main>
         </>
     )

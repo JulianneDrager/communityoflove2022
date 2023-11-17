@@ -24,6 +24,17 @@ const ServicesData = [
     article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     priceMonth: "$ 5.00 / month",
     priceYear: "$ 50.00 / year"
+  },
+  {
+    id: 2,
+    iconImageMobilePath: "mobile-service/childcare-icon.jpg",
+    iconImageDesktopPath: "desktop-service/childcare-icon.jpg",
+    title: (<>Sitter/Childcare<br></br><span>Services</span></>),
+    question: "In need of childcare?",
+    articleHead: "We know what it's like to need some mommy time, or just mommy and daddy time.",
+    article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    priceMonth: "$ 5.00 / month",
+    priceYear: "$ 50.00 / year"
   }
 ];
 

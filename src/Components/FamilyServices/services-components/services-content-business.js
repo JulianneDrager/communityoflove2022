@@ -24,6 +24,7 @@ const ServicesBusiness = () => {
                 <section className={subtitleContainer}>
                     <h2>Hiring Services</h2>
                 </section>
+                {servicesContent[0]}
                 {servicesContent[1]}
             </main>
         </>
